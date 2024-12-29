@@ -58,4 +58,11 @@
     color: white;
     background-color: hsl(0, 0%, 20%);
     padding: 10px;
+    cursor: pointer;
+    transition: background-color 80ms, color 80ms;
+}
+
+.link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
 }
