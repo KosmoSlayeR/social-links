@@ -1,17 +1,61 @@
 .card {
     background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .user {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pic {
+    height: 80px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.location {
+    font-size: 11px;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 11px;
+    color: white;
 }
 
 .links-container {
+    width: 225px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 10px;
+}
+
+.link {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
 }
